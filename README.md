@@ -1,3 +1,3 @@
 # ecommerce-figma
 
-School's project to use Figma's design 
+Compononent library + test med Vitest
