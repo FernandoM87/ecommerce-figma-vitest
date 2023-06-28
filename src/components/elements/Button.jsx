@@ -7,7 +7,7 @@ export default function Button({ setShop, object }) {
     }
 
     return (
-        <button className={styles.cartBtn} onClick={handleClick}>
+        <button className={styles.cartBtn} role="button" onClick={handleClick}>
             <div className={styles.cartBtnWrapper}>
                 <img src="./src/assets/images/shape-white.svg" alt="Cart icon" className={styles.cartBtnIcon} />
                 <p className={styles.cartBtnText}>Add to cart</p>
